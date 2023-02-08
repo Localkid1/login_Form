@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: architep;
+} 
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: aquamarine;
+    margin-top: 140px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+   
+}    
+.container .login{
+    width: 420px;
+    height: 420px;
+    background-color: #1a141445;
+    border-radius: 5px;
+}
+.container .login .login1{
+    width: 420px;
+    height: 50px;
+    background-color: #d0d2db;
+    text-align: center;
+    /* border-radius: 5px; */
+    
+}
+
+.container .login .login2{
+    width: 420px;
+    height: 370px;
+    background-color: #dee6e6;
+    padding-top: 50px;
+    padding-left: 60px;
+    /* border-radius: 5px; */
+    position: relative;
+}
+
+.container .login .login1 h2{
+    padding-top: 13px;
+    font-size: 18px;
+}
+
+.container .login .login2 input{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    /* margin-left: 20px; */
+   
+}
+
+.container .login .login2 button{
+    width: 280px;
+    height: 40px;
+    background-color: #77c877;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.container .login .login2 button:hover{
+    background-color: #78e978;
+}
+
+.container .login .login2 p{
+    margin-bottom: 7px;
+}
+
+.container .login .login2 i {
+   position: absolute;
+   right: 21%;
+   top: 25%;
+}
+.container .login .login2 span i{
+    position: absolute;
+    right: 21%;
+    top: 51%;
+    
+}
+@font-face{
+    src: url(architep.ttf);
+    font-family: architep;
+}
+
+ 
